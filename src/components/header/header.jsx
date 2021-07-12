@@ -29,7 +29,7 @@ const Header = () => {
 									</Link>
                                 </NavItem>
                                 <NavItem>
-                                    <Link className="nav-link" to={"/custom-components"}>
+                                    <Link className="nav-link" to={"/about-us"}>
                                         About Us
                                     </Link>
                                 </NavItem>

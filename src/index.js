@@ -12,14 +12,22 @@ import './assets/scss/style.scss';
 // pages for this product
 import Components from "./views/components/components.jsx";
 import CustomComponents from "./views/custom-components/custom-components.jsx";
+import AboutUs from "./views/AboutUs/aboutus.jsx";
 
 var hist = createBrowserHistory();
 
 ReactDOM.render(
-    <HashRouter history={hist}>
+    <HashRouter>
         <Switch>
-            <Route path="/custom-components" component={CustomComponents} />
-            <Route path="/" component={Components} />
+            <Route path="/custom-components">
+                <CustomComponents />
+            </Route>
+            <Route path="/">
+                <Components />
+            </Route>
+            <Route path="/about-us">
+                <AboutUs/>
+            </Route>
         </Switch>
     </HashRouter>,
     document.getElementById("root")
