@@ -24,7 +24,7 @@ const FeatureComponent = () => {
                 <Container>
                     <Row className="m-t-40">
                         <Col md="3" className="wrap-feature4-box">
-                            <Card className="card-light">
+                            <Card className="card-3">
                                 <CardBody>
                                     <h4 className="font-medium">Search Class</h4>
                                     <div className="btndropdown">

@@ -28,8 +28,8 @@ const HeaderComponent = () => {
                         <NavbarToggler onClick={toggle}><span className="ti-menu"></span></NavbarToggler>
                         <Collapse isOpen={isOpen} navbar id="header1">
                             <Nav navbar className="ml-auto mt-2 mt-lg-0">
-                                <NavItem className="active"><NavLink href="#">Home</NavLink></NavItem>
-                                <NavItem><NavLink href="#">About Us</NavLink></NavItem>
+                                <NavItem className="active"><NavLink href="/custome-components">Home</NavLink></NavItem>
+                                <NavItem><NavLink href="/about-us">About Us</NavLink></NavItem>
                                 {/* <NavItem><NavLink href="#">Classes</NavLink></NavItem> */}
                                 <UncontrolledDropdown nav inNavbar>
                                     <DropdownToggle nav>

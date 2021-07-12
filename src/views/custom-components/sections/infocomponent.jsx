@@ -1,4 +1,5 @@
 /* eslint-disable */
+// The cards attached to banner
 import React from 'react';
 import { Row, Col, Container, Card, CardBody } from 'reactstrap';
 
